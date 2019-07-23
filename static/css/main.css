@@ -1,3 +1,66 @@
+.part-a-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-end;
+  align-content: flex-start;
+  background-color: purple;
+  width: 100%;
+  height: 600px;
+}
+
+.flex-item {
+  background-color: orange;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+.part-b-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: flex-start;
+  background-color: purple;
+  width: 100%;
+  height: 600px;
+}
+
+.part-c-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-content: center;
+  background-color: purple;
+  width: 100%;
+  height: 600px;
+}
+
+.part-d-flex-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-content: flex-start;
+  background-color: purple;
+  width: 100%;
+  height: 600px;
+}
+
+.part-e-flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  background-color: purple;
+  width: 100%;
+  height: 600px;
+}
+
 /* TASK 1 */
 .shape-container {
 	display: flex;
